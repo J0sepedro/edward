@@ -1,11 +1,20 @@
 body {
     background-color: salmon;
 }
+
+
+
 .edward {
     background-color: tomato;
     text-align: center;
-    
 }
+
 .greeting {
     text-align: center;
+}
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
