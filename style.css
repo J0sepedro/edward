@@ -1,20 +1,16 @@
 body {
-    background-color: coral;
+    background-color: rgba(70, 174, 206, 0.984);
 }
-
-
-
+img {
+    width: 320px;
+    height: auto;
+}
 .edward {
-    background-color: tomato;
     text-align: center;
 }
-
-.greeting {
-    text-align: center;
-}
-
 .photos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
